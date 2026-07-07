@@ -2,7 +2,7 @@
 
 Computer Vision Project, Sapienza University of Rome, A.A. 2025-2026  
 Course: Computer Vision, Prof. Irene Amerini  
-Team: Mahnoor, Naveen, Rayen
+Team: Mahnoor Fatima Syeda 2283844, Naveen Tiwari 2261826
 
 ## Project Overview
 
@@ -27,7 +27,14 @@ The dataset contains both real and AI-generated images under three transformatio
 - `transfer`: images affected by internet transmission or platform-style processing
 - `redigital`: images that have gone through re-digitization, such as screen recapture
 
-The notebook expects the dataset to follow this folder structure:
+### Dataset Access
+
+The full RRDataset used in this project is large, so it is not included directly in this GitHub repository.  
+It can be accessed from the following Google Drive link:
+
+[Download RRDataset from Google Drive](https://drive.google.com/drive/folders/1zn6zR5m97mCM5KgNVFEP3e1hBkXLjHRo)
+
+After downloading, place the dataset in the following structure before running the notebook:
 
 ```text
 RRDataset_final/
@@ -118,7 +125,7 @@ When the notebook is run in Google Colab, the setup cell installs the extra pack
 ## How to Run
 
 1. Open the notebook in Google Colab, Kaggle, or a local Jupyter environment.
-2. Place the dataset in the expected folder structure shown above.
+2. Download the dataset from the Google Drive link in the Dataset section and place it in the expected folder structure.
 3. Update `DATASET_ROOT` in the paths cell if the dataset is stored somewhere else.
 4. Run the cells in order.
 5. For a quick local check, keep `LOCAL_DEBUG = True`.
